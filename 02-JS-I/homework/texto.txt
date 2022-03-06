@@ -1,0 +1,44 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+
+* Variable: es la forma de darle un valor a algo utilizando el simbolo de asignacion =. Se realiza mediante la funcion var. ejemplo: var nombre = Guillermo.
+
+* Strings: es solo texto, se encuentra siempre entre comillas ya sea doble o simple. ejemplo "aprender programacion es genial". ejemplo 2: "2" hasta un numero entre comillas se combierte en string o sea en texto.
+
+* Funciones: nos permiten agrupar codigos que vamos a usar mucho; El cual se ejecutara cada ves que invoquemos esa funcion. Ejemplo: 
+
+funcion saludo(){
+	console.log ("hola, como estas")
+}
+cada ves que invoquemos la funcion saludo() invocara la string "hola, como estas"
+
+Las funciones pueden terer argumentos dentro de ellas que nos ayudan a cambiar parte del codigo cuando haga falta. Ejemplo:
+
+Funcion rendimiento (auto, km){
+	console.log ("el" + auto + "tien un rendimiento de" + km + "por litro de combustible")
+}
+En este ejemplo los argumentos auto y km son valores que podemos cambiar cada ves que invoquemos la funcion "rendimiento" de la siguiente manera:
+rendimiento ("chevrolet classic", 10)
+
+return: en una declaracion que nos devuelve los datos que nosotros espesificamos, el el unico metodo que los datos escapen de la funcion. Ejemplo:
+funcion producto(a, b){
+	return (a * b)
+}
+en esta funcion cuando la invoquemos de la siguiente manera:
+producto(5, 6)
+nos devolvera el resulta do de 5 * 6, o sea 30.
+
+*Declaraciones "if": esta declaracion nos permite comparar valores y devolver como respuesta si esa declaracion en verdadera (true)
+o falsa(false). Ejemplo:
+funcion compras(precio){
+	if (precio > 100){return true}
+	else return false
+}
+de esta forma si el argumento precio es mayor que 100 la funcion devolvera true de lo contrario, si precio es menor que 100 devolvera false.
+
+*Valores booleanos: solo son 2 true o false. Se utiliza para devolver declaraciones como en el ejemplo anterior.
