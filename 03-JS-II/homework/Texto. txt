@@ -1,0 +1,31 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+* for: Es un bucle, es la forma de hacer que un codigo se repita hasta que su resultado de falso. Ejemplo 
+for (let i = 0; i <= 10; i++){
+	console.log (i)
+}
+el bucle "for"cuneta de tres partes separadas por ";" que van dentro del parentesis primero determinamos una variable en este caso es "i", luego la condicion que debe cumplir para finalizar el bucle (i menor o igual que 10) y por ultimo el incremento de "i" (i++). De esta forma podemos decir que la variable "i"que inicia su valor en "0" va a aumentar su valor de unu en uno hasta llegar a 10 donde finalizara.
+
+* "&&", "||", "!": son operadores logicos. 
+"&&" nos sirve para utilizar como "and" (y) ejemplo: 
+if(a < 10 && b > 100){
+	return true
+}
+aqui decimos que si el argumento "a" es menor de 10 "y" el argumento "b" es mayor a 100 este codigo devolvera "true".
+
+lo mismo sucederia con "||" donde es utilizado como "or" (o) ejemplo:
+
+if(a < 10 || b > 100){
+	return true
+}
+aqui decimos que si el argumento "a" es menor de 10 "o" el argumento "b" es mayor a 100 este codigo devolvera "true".
+
+En cambio el operador "!" nos sirve para decir "not"(no) ejemplo:
+
+if(a !== 10){
+	return false
+}
+Aqui decimos que si "a" <no> es igual a 10 el codigo devolvera false.
