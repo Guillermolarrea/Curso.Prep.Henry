@@ -1,0 +1,17 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+1.  * Objetos: son contenedores de datos similares a las matrices. Con diferencia es que las matrices poseen distinta informacion relacionada entre si y los objetos contiene mucha informacion de una sola cosa. En JS todo lo que hacemos son objetos.
+
+	* Propiedades: se encuentran dentro de los objetos y relacionan un nombre o clave con un valor(numerico, string o booleano) , funcion o array.
+
+	* Metodo: se le da este nombre a las funciones dentro de los objetos.
+
+	* Bucle "for...in": Es un bucle que se utiliza cuando queremos iterar un par (clave: valor) en un objeto. Su sintaxis es algo diferente al bucle standar, comienza igual pero dentro de los parentesis se declara la variable clave "in" y el nombre del objeto.
+
+	* Notación de puntos vs notación de corchetes: Estas son dos formas de acceder a los pares de "clave: valor" que se encuentran dentro del objeto. Una de ellas es separar por un punto el nombre clave del valor asignado a esa clave. La otra forma es utilisando el nombre clave y entre corchetes e comillas el valor. Esta ultima forma se utiliza casi siempre con variables.
