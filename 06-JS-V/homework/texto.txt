@@ -1,0 +1,9 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `prototype`
+* _Constructors_ (de Clases)
+
+
+* 'prototipe': Es la forma unica de establecer un metodo en una class. Para que despues cada obejo de esa class pueda tener acceso a ese metodo sin necesidad de andar creando un metodo para cada objeto.
+
+* _Costructors_ (de Clases): Es la creacion de plantillas de objetos, es decir que se crea una plantilla con las cosas en comun que van a tener todos los objetos que pertenescan a esa plantilla para no tener que repetir una y otra ves evitando errores de tipeado y uso de memoria.
