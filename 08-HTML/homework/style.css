@@ -1,0 +1,46 @@
+div{
+  display: flexbox;
+  position: relative;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  color: white;
+}
+h3 {
+  background-color: white;
+  }
+h4 {
+  background-color: white;
+}
+img {
+   width: 400px;
+   height: 300px;
+   }
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: transparent;
+    padding: 50px;
+    border: 20px double blueviolet;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    background-color: white;
+}
+body {
+  background-image: url(./fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.divClass {
+  color:black;
+}
+#idlink {
+  color: black;
+  background-color: white;
+}
