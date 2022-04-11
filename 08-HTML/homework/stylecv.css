@@ -1,0 +1,46 @@
+#foto{
+    position:relative;
+    height: 200px;
+    width: 200px;
+    display:flexbox;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: blue;
+    border: 1px;
+}
+h1{
+    color:darkslategrey;
+    font-size: 100px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 25px;
+}
+#subtitulo{
+    font-size: 20px;
+}
+.titulo{
+    text-align: center;
+}
+#idtitulo{
+    position: relative;
+    display: block;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+p{
+    position: relative;
+    text-align: justify;
+    left: 1cm;
+}
+ul{
+    position: relative;
+    left: 2cm;
+}
+body{
+    background-color:honeydew;
+}
